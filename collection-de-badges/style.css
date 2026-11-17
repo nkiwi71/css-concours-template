@@ -1,3 +1,4 @@
+
 :root {
     /* Variables réutilisables */
 
@@ -14,17 +15,25 @@
 
 body {
     margin: 0;
-    background-color: #f3f5f9;
-    color: #20263a;
-    font-family: "Times New Roman", serif;
+    background-color: #FFF5D9;
+    color: #30456d;
+    font-family: 'Minecraft', sans-serif;
     line-height: 1.5;
 }
 
 header {
-    padding: 48px 20px;
-    background-color: #2e295b;
+    padding: 40px;
+    padding-bottom: 60px;
+    background-color: #CB99C9;
     color: #ffffff;
     text-align: center;
+    position: relative;
+    background-image: repeating-conic-gradient(#ffffff26 0 25%, transparent 0 50%);
+    background-size: 40px 40px;
+}
+
+header h1 {
+  text-shadow: 4px 4px 0 #8f6ba3, 8px 8px 0 #ffd1dc;
 }
 
 main {
@@ -46,30 +55,46 @@ section > div {
 article {
     overflow: hidden;
     padding: 16px;
-    background-color: #ffffff;
+    background-color: ;
     border: 2px solid #dfe3ec;
     border-radius: 20px;
 }
 
 article.bronze {
     border-color: var(--bronze);
+    border-width: 3px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.30);
+    
 }
 
 article.argent {
     border-color: var(--argent);
+    border-width: 3px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.30);
+
 }
 
 article.or {
     border-color: var(--or);
+    border-width: 3px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.30);
 }
 
 article.diamant {
     border-color: var(--diamant);
+    border-width: 3px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.30);
 }
 
 article.bloque {
     background-color: #e8eaf1;
     color: #626b80;
+    text-decoration-line: line-through;
+    text-decoration-style: solid; /* solid, double, dotted, dashed, wavy */
+    text-decoration-color: #5c5757;
+    text-decoration-thickness: 2px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.30);
+
 }
 
 article.bloque img {
@@ -136,3 +161,10 @@ article.secret::after {
         animation: none;
     }
 }
+ @font-face {
+            font-family: 'Minecraft';
+            src: url('https://cdn.jsdelivr.net/gh/aditkumar08/minecraft-font/Minecraft-Regular.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal; }
+        
+
