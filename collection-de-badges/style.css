@@ -38,7 +38,7 @@ header h1 {
 main {
     width: 90%;
     max-width: 1000px;
-    margin: 40px auto;
+    margin: 40px auto;  
 }
 
 section {
@@ -54,7 +54,7 @@ section > div {
 article {
     overflow: hidden;
     padding: 16px;
-    background-color: ;
+    background-color: #f0e4c1;
     border: 2px solid #dfe3ec;
     border-radius: 20px;
 }
@@ -62,27 +62,27 @@ article {
 article.bronze {
     border-color: var(--bronze);
     border-width: 3px;
-    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.30);
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.50);
     
 }
 
 article.argent {
     border-color: var(--argent);
     border-width: 3px;
-    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.30);
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.50);
 
 }
 
 article.or {
     border-color: var(--or);
     border-width: 3px;
-    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.30);
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.50);
 }
 
 article.diamant {
     border-color: var(--diamant);
     border-width: 3px;
-    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.30);
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.50);
 }
 
 article.bloque {
@@ -92,7 +92,7 @@ article.bloque {
     text-decoration-style: solid; /* solid, double, dotted, dashed, wavy */
     text-decoration-color: #5c5757;
     text-decoration-thickness: 2px;
-    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.30);
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.50);
 
 }
 
