@@ -28,8 +28,7 @@ header {
     color: #ffffff;
     text-align: center;
     position: relative;
-    background-image: repeating-conic-gradient(#ffffff26 0 25%, transparent 0 50%);
-    background-size: 40px 40px;
+    background-image: linear-gradient(#b9a3f5, #c49bc8 50%, #e8b4d0);    
 }
 
 header h1 {
